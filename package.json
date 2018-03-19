@@ -1,22 +1,26 @@
 {
-  "name": "react-inlinesvg",
-  "version": "0.8.0",
+  "name": "@headspace/react-inlinesvg",
+  "version": "1.0.1",
   "description": "An SVG loader for React",
-  "author": "Gil Barbara <gilbarbara@gmail.com>",
+  "author": "Headspace",
   "contributors": [
     {
       "name": "Matthew Dapena-Tretter",
       "email": "m@tthewwithanm.com"
+    },
+    {
+      "name": "Gil Barbara",
+      "email": "gilbarbara@gmail.com"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/gilbarbara/react-inlinesvg.git"
+    "url": "git://github.com/HeadspaceMeditation/react-inlinesvg.git"
   },
   "bugs": {
-    "url": "https://github.com/gilbarbara/react-inlinesvg/issues"
+    "url": "https://github.com/HeadspaceMeditation/react-inlinesvg/issues"
   },
-  "homepage": "https://github.com/gilbarbara/react-inlinesvg#readme",
+  "homepage": "https://github.com/HeadspaceMeditation/react-inlinesvg#readme",
   "main": "lib/index.js",
   "module": "es/index.js",
   "files": [
@@ -108,8 +112,7 @@
       [
         "babelify",
         {
-          "ignore": "/bower_components/",
-          "sourceMapRelative": "."
+          "ignore": "/bower_components/"
         }
       ]
     ]
